@@ -21,15 +21,10 @@ in microverse bootcamp. It is html and CSS with no frameworks.
 
 ## Getting Started
 
-<<<<<<< HEAD
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+clone the project
+Run on your browser
 
 To get a local copy up and running follow these simple example steps.
-=======
- Clone this project
- Open it in your browser.
->>>>>>> fe9445419947b7016b5e649af9fbbee5536ce4bf
 
 ## Author
 
@@ -55,8 +50,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-<<<<<<< HEAD
-This project is [MIT](./MIT.md) licensed.
-=======
 This project is [MIT](./LICENSE) licensed.
->>>>>>> fe9445419947b7016b5e649af9fbbee5536ce4bf
