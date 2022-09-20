@@ -1,23 +1,13 @@
 {
-<<<<<<< HEAD
   "name": "Abdifatah-porfolio",
-=======
-  "name": "Abdifatah-Mobile-portfolio",
->>>>>>> fe9445419947b7016b5e649af9fbbee5536ce4bf
   "version": "1.0.0",
   "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
   "main": "index.js",
   "dependencies": {
-<<<<<<< HEAD
     "lighthouse": "^9.6.1"
   },
   "devDependencies": {
     "hint": "^6.2.0",
-=======
-    "lighthouse": "^9.6.7"
-  },
-  "devDependencies": {
->>>>>>> fe9445419947b7016b5e649af9fbbee5536ce4bf
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",
@@ -28,23 +18,13 @@
   },
   "repository": {
     "type": "git",
-<<<<<<< HEAD
     "url": "git+https://github.com/AbdifatahYasin1/Abdifatah-porfolio.git"
-=======
-    "url": "git+https://github.com/AbdifatahYasin1/Abdifatah-Mobile-portfolio.git"
->>>>>>> fe9445419947b7016b5e649af9fbbee5536ce4bf
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-<<<<<<< HEAD
     "url": "https://github.com/AbdifatahYasin1/Abdifatah-porfolio/issues"
   },
   "homepage": "https://github.com/AbdifatahYasin1/Abdifatah-porfolio#readme"
-=======
-    "url": "https://github.com/AbdifatahYasin1/Abdifatah-Mobile-portfolio/issues"
-  },
-  "homepage": "https://github.com/AbdifatahYasin1/Abdifatah-Mobile-portfolio#readme"
->>>>>>> fe9445419947b7016b5e649af9fbbee5536ce4bf
 }
