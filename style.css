@@ -188,6 +188,12 @@ nav {
   list-style-type: none;
 }
 
+.about-myself ul li a {
+  color: #505f79;
+  text-decoration: none;
+  font-size: 19px;
+}
+
 .about-myself ul li {
   padding: 5px;
   margin-right: 10px;
@@ -209,10 +215,16 @@ nav {
 
 #text-color {
   color: #396df2;
+  margin: 10px;
 }
 
 .below-button {
   width: 40%;
+}
+
+.below-button:hover {
+  background-color: #6070ff;
+  color: white;
 }
 
 .frames {
@@ -221,4 +233,10 @@ nav {
   margin: 10px;
   margin-top: 10px;
   text-align: right left;
+}
+
+.alignment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
