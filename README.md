@@ -30,9 +30,15 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Abdifatah**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@AbdifatahYasin1](https://github.com/AbdifatahYasin1)
+- Twitter: [@CabdifataaxYuusuf](https://twitter.com/CabdifataaxYy)
+- LinkedIn: [Cabdifataax Yaasiin](https://www.linkedin.com/in/cabdifataax-yaasiin-69977019a/)
+
+👤 **Daniel Kigosi**
+
+-GitHub: [Daniel-Kigozi](https://github.com/Daniel-Kigozi)
+-Twitter: [@DanielKigozi15](https://twitter.com/@DanielKigozi15)
+-LinkedIn: [daniel-kigozi-375182208/](https://www.linkedin.com/in/daniel-kigozi-375182208/)
 
 ## 🤝 Contributing
 
