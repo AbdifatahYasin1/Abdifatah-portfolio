@@ -36,9 +36,9 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Daniel Kigosi**
 
--GitHub: [Daniel-Kigozi](https://github.com/Daniel-Kigozi)
--Twitter: [@DanielKigozi15](https://twitter.com/@DanielKigozi15)
--LinkedIn: [daniel-kigozi-375182208/](https://www.linkedin.com/in/daniel-kigozi-375182208/)
+- GitHub: [Daniel-Kigozi](https://github.com/Daniel-Kigozi)
+- Twitter: [@DanielKigozi15](https://twitter.com/@DanielKigozi15)
+- LinkedIn: [daniel-kigozi-375182208/](https://www.linkedin.com/in/daniel-kigozi-375182208/)
 
 ## 🤝 Contributing
 
