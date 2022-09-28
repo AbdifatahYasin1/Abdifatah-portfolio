@@ -240,29 +240,28 @@ nav {
   justify-content: center;
   align-items: center;
 }
-a {
-  text-decoration: none;
-  color: #091e42;
-}
+
 /* Conatact */
 .contact {
   background-image: url(images/Contact\ me.png);
   background-repeat: no-repeat;
   flex-wrap: wrap;
-  max-width:400px;
+  max-width: 400px;
   margin: 0 auto;
-
-    padding: 40px 30px;
+  padding: 40px 30px;
   text-align: right left;
-   
 }
 
-.container-contact button{
-padding: 10px;
-text-align: center;
-width: 50%;
-margin-left: 70px;
+.container-contact button {
+  padding: 10px;
+  text-align: center;
+  width: 50%;
+  margin-left: 70px;
+}
 
+.container-contact .form button a {
+  text-decoration: none;
+  color: #091e42;
 }
 
 input {
@@ -295,5 +294,3 @@ textarea {
   color: #fff;
   margin-top: 15%;
 }
-
-
