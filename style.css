@@ -247,21 +247,19 @@ nav {
   background-repeat: no-repeat;
   flex-wrap: wrap;
   max-width: 400px;
-  margin: 0 auto;
-  padding: 40px 30px;
-  text-align: right left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid black;
+  height: 600px;
 }
 
 .container-contact button {
   padding: 10px;
   text-align: center;
   width: 50%;
-  margin-left: 70px;
-}
-
-.container-contact .form button a {
-  text-decoration: none;
-  color: #091e42;
+  align-self: left;
 }
 
 input {
@@ -287,8 +285,8 @@ textarea {
 }
 
 .container-contact h2 {
-  font-size: 20px;
-  line-height: 22px;
+  font-size: 40px;
+  line-height: 52px;
   text-align: center;
   vertical-align: center;
   color: #fff;
