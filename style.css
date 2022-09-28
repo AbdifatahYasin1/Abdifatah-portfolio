@@ -256,9 +256,9 @@ nav {
 }
 
 .container-contact button {
-  padding: 10px;
+  padding: 8px;
   text-align: center;
-  width: 50%;
+  width: 35%;
   align-self: left;
 }
 
@@ -292,3 +292,5 @@ textarea {
   color: #fff;
   margin-top: 15%;
 }
+
+
