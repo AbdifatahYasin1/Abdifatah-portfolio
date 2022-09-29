@@ -421,8 +421,6 @@ input {
   color: white;
 }
 
-
-
 /* Media queris */
 @media only screen and (max-width: 600px) {
   a {
