@@ -4,7 +4,7 @@
 
 > Description the project.
 
-This project is my portfolio in mobile-version it is student project
+This project is my portfolio in Desktop-version it is student project
 in microverse bootcamp. It is html and CSS with no frameworks.
 
 ## Built With
@@ -34,11 +34,7 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@CabdifataaxYuusuf](https://twitter.com/CabdifataaxYy)
 - LinkedIn: [Cabdifataax Yaasiin](https://www.linkedin.com/in/cabdifataax-yaasiin-69977019a/)
 
-👤 **Daniel Kigosi**
 
-- GitHub: [Daniel-Kigozi](https://github.com/Daniel-Kigozi)
-- Twitter: [@DanielKigozi15](https://twitter.com/@DanielKigozi15)
-- LinkedIn: [daniel-kigozi-375182208/](https://www.linkedin.com/in/daniel-kigozi-375182208/)
 
 ## 🤝 Contributing
 
