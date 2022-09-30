@@ -167,6 +167,10 @@ body a {
 
 .col-1 img {
   width: 100%;
+  transition: transform;
+}
+.col-1 img:hover {
+  transform: scale(0.7);
 }
 
 .col-2 h2 {
@@ -187,6 +191,10 @@ body a {
   width: 8px;
   height: 8px;
   margin: 3px;
+  transition: transform;
+}
+.list-container-1 img:hover {
+  transform: scale(0.7);
 }
 
 .list-container-1 {
@@ -247,6 +255,10 @@ body a {
 
 .col-2 img {
   width: 100%;
+  transition: transform;
+}
+.col-2 img:hover {
+  transform: scale(0.7);
 }
 
 .col-2 .list-container-1 img {
@@ -254,6 +266,11 @@ body a {
   width: 8px;
   height: 8px;
   margin: 3px;
+  transition: transform;
+  transform: scale(0.7);
+}
+.col-2 .list-container-1 img:hover {
+  transform: scale(0.7);
 }
 
 .col-2-1 p {
@@ -328,6 +345,11 @@ input {
 
 .about-col-1 .wrapper img {
   margin: 10px;
+  transition: transform;
+}
+
+.about-col-1 .wrapper img:hover {
+  transform: scale(0.7);
 }
 
 .about-myself p {
