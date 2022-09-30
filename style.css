@@ -134,6 +134,15 @@ body a {
   align-self: flex-start;
   margin-top: 10px;
   margin-right: -15px;
+  transition-property: background-color color  ;
+  transition-delay: 0.4s;
+
+}
+
+.big-button:hover{
+  background-color: #396df2;
+  color: #cfd8dc;
+
 }
 
 /* work section */
@@ -519,3 +528,5 @@ input {
     width: fit-content;
   }
 }
+/* Animations */
+
