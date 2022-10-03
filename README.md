@@ -13,7 +13,7 @@ in microverse bootcamp. It is html and CSS with no frameworks.
   Html and css
 - Frameworks
   no frameworks is used
-- Technologies used
+
 
 ## Live Demo (if available)
 
