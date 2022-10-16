@@ -456,7 +456,6 @@ input {
   color: white;
 }
 
-
 /* Media queris */
 @media only screen and (min-width: 768px) {
   .row {
@@ -483,9 +482,7 @@ input {
   }
 }
 
-
 /* Humburger menu */
-
 .nav-menu {
   display: flex;
   justify-content: space-between;
@@ -570,8 +567,6 @@ input {
     height: 70px;
     color: #396df2;
   }
-
-
 
   .nav-menu.active {
     left: 0;
