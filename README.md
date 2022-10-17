@@ -34,7 +34,10 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@CabdifataaxYuusuf](https://twitter.com/CabdifataaxYy)
 - LinkedIn: [Cabdifataax Yaasiin](https://www.linkedin.com/in/cabdifataax-yaasiin-69977019a/)
 
-
+👤 **Tonny Tei**
+-Github: [@teitonny](https://github.com/teitonny)
+-Twiter: [@TonnyTei](https://twitter.com/TonnyTei)
+-linkedIn: [TonnyTei](https://www.linkedin.com/in/tonny-tei-38a4771a0/)
 
 ## 🤝 Contributing
 
