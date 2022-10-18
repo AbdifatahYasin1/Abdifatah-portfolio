@@ -43,7 +43,20 @@ document.querySelectorAll('.anchor').forEach((navLink) => navLink.addEventListen
 
 
 
-  
+  //form validation in javascript
+ 
+  const form = document.querySelector('.form');
+
+  form.addEventListener('submit', (element) =>{
+    const email = document.querySelector('.email').value;
+    element.preventDefault();
+    if(email.toLowerCase() === email){
+      form.submit();
+    } else {
+      document.querySelector('.alert').textContent='please use lowercase !';
+    }
+  })
+
 
 
 
