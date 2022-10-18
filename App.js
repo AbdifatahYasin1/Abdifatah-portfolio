@@ -58,6 +58,26 @@ document.querySelectorAll('.anchor').forEach((navLink) => navLink.addEventListen
   })
 
 
+  //Local storage
+
+  //
+
+  form.addEventListener('submit', (element) =>{
+
+    element.preventDefault();
+  
+      const nameField = document.querySelector('#name').value;
+      const emailField = document.querySelector('#email').value;
+      const textAreaField= document.querySelector("#textArea").value;
+  
+      localStorage.setItem('nameField',nameField);
+      localStorage.setItem('emailField',emailField);
+      localStorage.setItem('textAreaField',textAreaField);
+  
+      
+    
+    });
+
 
 
  
