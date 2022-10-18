@@ -9,6 +9,7 @@
 
 body {
   font-family: 'poppins', sans-serif;
+  min-width: 500px;
 }
 
 body a {
@@ -144,7 +145,6 @@ body a {
 }
 
 /* work section */
-
 .work-section {
   width: 80%;
   border-radius: 4px;
@@ -156,11 +156,14 @@ body a {
 
 .row {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   border: 1px solid #fff;
   align-items: center;
-  flex-wrap: wrap;
-  margin-bottom: 30px;
+
+  /* flex-wrap: wrap; */
+
+  /* margin-bottom: 30px; */
 }
 
 .col-1 img {
@@ -338,7 +341,6 @@ input {
 }
 
 /* About my self */
-
 .wrapper {
   display: flex;
   justify-content: center;
@@ -455,102 +457,118 @@ input {
 }
 
 /* Media queris */
-@media only screen and (max-width: 600px) {
-  a {
-    text-decoration: none;
+@media only screen and (min-width: 768px) {
+  .row {
+    flex-direction: row;
+  }
+
+  .col-1 img {
+    width: 100%;
+  }
+
+  .big-button-2:hover {
+    background-color: #6070ff;
+    color: white;
+  }
+
+  .about-myself h1 {
     color: #091e42;
-  }
-
-  .about-content h1 {
-    margin: 10px;
-    color: #091e42;
-    font-weight: 800;
-    font-size: 2rem;
-    width: 60%;
-  }
-
-  .about-content p {
-    color: #344563;
-    width: 60%;
-    margin: 10px;
-  }
-
-  .about-content h4 {
-    color: #7f8cff;
-    line-height: 24px;
-    font-size: 16px;
-    margin: 10px 10px 10px 0;
-    margin: 10px;
-  }
-
-  .about-content ul {
-    padding: 10px;
-    color: #505f79;
-    width: 60%;
-    display: flex;
-    list-style-type: none;
-  }
-
-  /* Conatact */
-  .contact {
-    flex-wrap: wrap;
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 40px 30px;
-    text-align: right left;
-  }
-
-  .container-contact button {
-    padding: 10px;
-    text-align: center;
-    width: 50%;
-    margin-left: 70px;
-  }
-
-  .container-contact .form button a {
-    text-decoration: none;
-    color: #091e42;
-  }
-
-  input {
-    display: block;
-    width: 300px;
-    height: 30px;
-    margin: 10px;
-  }
-
-  textarea {
-    width: 300px;
-    margin: 10px;
-  }
-
-  .container-contact p {
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 23px;
-    text-align: center;
-    color: #ebebff;
-    width: 80%;
-    vertical-align: top;
-  }
-
-  .container-contact h2 {
-    font-size: 20px;
-    line-height: 22px;
-    text-align: center;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: left;
     vertical-align: center;
-    color: #fff;
-    margin-top: 15%;
-  }
-
-  .list-container-2 ul li {
-    background-color: #ebebff;
-    border-radius: 8%;
-    padding: 4px;
-    text-align: center;
-    margin: 8px;
-    width: fit-content;
+    width: 20%;
+    margin: 10px;
   }
 }
 
-/* Animations */
+/* Humburger menu */
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+
+.navbar {
+  min-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+}
+
+.nav-branding {
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  transition: 0.8s ease;
+}
+
+.hamburger-btn {
+  display: none;
+}
+
+.bar {
+  display: block;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: ll 0.3s ease-in-out;
+  background-color: #6070ff;
+  width: 30px;
+  height: 4px;
+}
+
+@media (max-width: 768px) {
+  .hamburger-btn {
+    display: block;
+  }
+
+  .hamburger-btn.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger-btn.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger-btn.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .nav-menu {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: -120%;
+    gap: 5px;
+    justify-content: center;
+    padding: 10% 5% 50% 2%;
+    width: 100vw;
+    transition: 0.7s ease-out;
+    flex-direction: column;
+    background: #fff;
+  }
+
+  .nav-list .nav-link {
+    color: #344563;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .nav-menu .nav-list {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 70px;
+    color: #396df2;
+  }
+
+  .nav-menu.active {
+    left: 0;
+  }
+}
