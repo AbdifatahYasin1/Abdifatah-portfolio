@@ -53,7 +53,7 @@ document.querySelectorAll('.anchor').forEach((navLink) => navLink.addEventListen
     if(email.toLowerCase() === email){
       form.submit();
     } else {
-      document.querySelector('.alert').textContent='please use lowercase !';
+      document.querySelector('.alert').textContent='please use lowercase in email field!';
     }
   })
 
