@@ -58,34 +58,45 @@ document.querySelectorAll('.anchor').forEach((navLink) => navLink.addEventListen
   })
 
 
-  //Local storage
-
-  //
-
-  form.addEventListener('submit', (element) =>{
-
-    element.preventDefault();
-  
-      const nameField = document.querySelector('#name').value;
-      const emailField = document.querySelector('#email').value;
-      const textAreaField= document.querySelector("#textArea").value;
-  
-      localStorage.setItem('nameField',nameField);
-      localStorage.setItem('emailField',emailField);
-      localStorage.setItem('textAreaField',textAreaField);
-  
-      
-    
-    });
-
-
-
  
 
 
 
+ 
+  //Local storage 
 
+  const getData = JSON.parse(window.localStorage.getItem('data'));
 
+   document.querySelector('#name').value = getData.name;
+   document.querySelector('#email').value =getData.email;
+   document.querySelector("#textArea").value=getData.text;
+
+ 
+
+  form.addEventListener('submit', (event) =>{
+
+   event.preventDefault();
+
+   const nameField = document.querySelector('#name').value;
+  const emailField = document.querySelector('#email').value;
+  const textAreaField= document.querySelector("#textArea").value;
+
+  const data = {
+    name: nameField,
+    email:emailField,
+    text:textAreaField
+
+  }
+  console.log(data);
+
+window.localStorage.setItem('data',JSON.stringify(data));
+
+   
+    
+  
+      
+    
+    });
 
 
 
