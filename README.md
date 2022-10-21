@@ -25,10 +25,11 @@ You can have a copy of this repo run on your local machine by just directly clon
 
 > Cloning steps:
 
-1. - [ ] Open the `Terminal`
-2. - [ ] Navigate to the directory where you want to add this repository
-3. - [ ] Run `https://github.com/AbdifatahYasin1/My-portfolio-Web.git`
-4. - [ ] Run `npm install` to install the necessary modules
+1. - [ ] Open on the `Terminal`
+2. - [ ] Run `https://github.com/AbdifatahYasin1/My-portfolio-Web.git`
+3. - [ ] cd My-portfolio-Web
+4. - [ ] Open in the IDE
+4. - [ ] open with the liver server
 
 
 ## Author
@@ -38,11 +39,6 @@ You can have a copy of this repo run on your local machine by just directly clon
 - GitHub: [@AbdifatahYasin1](https://github.com/AbdifatahYasin1)
 - Twitter: [@CabdifataaxYuusuf](https://twitter.com/CabdifataaxYy)
 - LinkedIn: [Cabdifataax Yaasiin](https://www.linkedin.com/in/cabdifataax-yaasiin-69977019a/)
-
-👤 **Tonny Tei**
--Github: [@teitonny](https://github.com/teitonny)
--Twiter: [@TonnyTei](https://twitter.com/TonnyTei)
--linkedIn: [TonnyTei](https://www.linkedin.com/in/tonny-tei-38a4771a0/)
 
 ## 🤝 Contributing
 
