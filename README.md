@@ -21,10 +21,14 @@ in microverse bootcamp. It is html and CSS with no frameworks.
 
 ## Getting Started
 
-clone the project
-Run on your browser
+You can have a copy of this repo run on your local machine by just directly cloning it
 
-To get a local copy up and running follow these simple example steps.
+Cloning steps:
+
+ Open the Terminal
+ Navigate to the directory where you want to add this repository
+ Run git clone https://github.com/AbdifatahYasin1/My-portfolio-Web.git
+ Run npm install to install the necessary modules
 
 ## Author
 
