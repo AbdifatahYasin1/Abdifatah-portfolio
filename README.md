@@ -23,12 +23,13 @@ in microverse bootcamp. It is html and CSS with no frameworks.
 
 You can have a copy of this repo run on your local machine by just directly cloning it
 
-Cloning steps:
+> Cloning steps:
 
- Open the Terminal
- Navigate to the directory where you want to add this repository
- Run git clone https://github.com/AbdifatahYasin1/My-portfolio-Web.git
- Run npm install to install the necessary modules
+1. - [ ] Open the `Terminal`
+2. - [ ] Navigate to the directory where you want to add this repository
+3. - [ ] Run `https://github.com/AbdifatahYasin1/My-portfolio-Web.git`
+4. - [ ] Run `npm install` to install the necessary modules
+
 
 ## Author
 
