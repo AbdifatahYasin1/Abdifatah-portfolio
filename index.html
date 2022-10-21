@@ -16,22 +16,30 @@
   <body>
       
        <!-- Header -->
-       <section class="header-section">
+       <section class="header-section" id="header">
     <header class="header">
       <h2 class="logo-text">My Logo</h2>
-      <nav>
-        <ul>
-          <li><a href="">Portoflio</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">Contact</a></li>
+      <nav class="navbar"> 
+       
+        <ul class="nav-menu">
+            <ul class="nav-list"><a href="#header" class="anchor">Portfolio</a></ul>
+            <ul class="nav-list"><a href="#about-section" class="anchor">About</a></ul>
+            <ul class="nav-list"><a href="#contact-section" class="anchor">Contact</a></ul>
+
         </ul>
-      </nav>
+        <div class="hamburger-btn">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+
+    </nav>
     </header>
 
 
 
     <!-- About section -->
-    <section class="about-section">
+    <section class="about-section" id="about-section">
       <!-- about -->
      
         <div class="about-content">
@@ -93,7 +101,7 @@
             <li>javascript</li>
           </ul>
         </div>
-        <button type="button" class="big-button">See project</button>
+        <button data-name="p-1" type="button" class="big-button">See project</button>
        </div>
 
   </div>
@@ -134,7 +142,7 @@
               <li>javascript</li>
               </ul>
             </div>
-            <button type="button" class="big-button">See project</button>
+            <button  data-name="p-2" type="button" class="big-button">See project</button>
            </div>
            <div class="col-1">
             <img src="images/Portfolio.png" alt="">
@@ -181,7 +189,7 @@
               <li>javascript</li>
              </ul>
             </div>
-            <button type="button" class="big-button">See project</button>
+            <button  data-name="p-3" type="button" class="big-button">See project</button>
            </div>
     
       </div>
@@ -223,7 +231,7 @@
               
             </ul>
           </div>
-          <button type="button" class="big-button">See project</button>
+          <button  data-name="p-4" type="button" class="big-button">See project</button>
          </div>
          <div class="col-1">
           <img src="images/Snapshoot Portfolio55.png" alt="">
@@ -308,18 +316,19 @@
 
 
 <!-- Contact section -->
- <section class="contact">
+ <section class="contact" id="contact-section">
   <div class="container-contact">
   <h2>Contact me</h2>
   <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
-  <form
-  action="https://formspree.io/f/xgeqkbbo"
-  method="POST"
->
-    <input type="text" placeholder="Abdifatah Yassen" maxlength="30" required>
-    <input type="email" placeholder="alexandra@gmail.com" required>
-    <textarea type="text" name="message" id="" cols="30" rows="10" placeholder="write your message here" maxlength="500" required></textarea>
-    <button type="submit" class="big-button big-button-2 ">
+<form class="form" action="https://formspree.io/f/xgeqkbbo"
+method="POST">
+  
+    <input type="text" placeholder="Abdifatah Yassen" maxlength="30" required id="name" class="inputElements">
+    <input type="email" placeholder="alexandra@gmail.com" required class="email"  id="email" class="inputElements">
+    <textarea type="text" name="message" cols="30" rows="10" placeholder="write your message here" maxlength="500" required id="textArea" ></textarea>
+    <br>
+    <h6 class="alert" ></h6>
+    <button type="submit" class="big-button submit " >
       Get in touch
     </button>
   </form>
@@ -327,9 +336,8 @@
 </div>
 </section>
 
+<section class="preview-section"></section>
 
-
-  
-
+<script src="App.js"></script>
    </body>
    </html>
