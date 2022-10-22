@@ -88,6 +88,8 @@ CreatePop();
 const previewContainer = document.querySelector('.Popup-section');
 const previewBox = previewContainer.querySelectorAll('.Popup-container');
 
+// displaying popup-window
+
 document
 .querySelectorAll('.big-button')
 .forEach((project) => {
@@ -106,9 +108,11 @@ document
   };
 });
 
-previewBox.forEach((close) => {
-close.querySelector('.close').onclick = () => {
-  close.classList.remove('active');
+// closing popup-window
+
+previewBox.forEach((end) => {
+end.querySelector('.close').onclick = () => {
+  end.classList.remove('active');
   previewContainer.style.display = 'none';
 };
 });
