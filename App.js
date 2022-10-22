@@ -14,9 +14,9 @@ hamburger.addEventListener('click', () => {
 });
 
 
-//looping for nav link
+//looping for all nav links
 
-document.querySelectorAll('.anchor').forEach((navLink) => navLink.addEventListener('click', () => {
+document.querySelectorAll('.anchor').forEach((navLinkEvent) => navLinkEvent.addEventListener('click', () => {
     hamburger.classList.remove('active');
     navMenu.classList.remove('active');
    
