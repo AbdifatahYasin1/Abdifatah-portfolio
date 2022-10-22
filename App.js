@@ -63,7 +63,7 @@ document.querySelectorAll('.anchor').forEach((navLink) => navLink.addEventListen
 
 
  
-  //Local storage 
+  //Local storage code
 
   const getData = JSON.parse(window.localStorage.getItem('data'));
 
@@ -71,22 +71,24 @@ document.querySelectorAll('.anchor').forEach((navLink) => navLink.addEventListen
    document.querySelector('#email').value =getData.email;
    document.querySelector("#textArea").value=getData.text;
 
- 
+//  on submit section
 
-  form.addEventListener('submit', (event) =>{
+  form.addEventListener('submit', (e) =>{
 
-   event.preventDefault();
+   e.preventDefault();
 
-   const nameField = document.querySelector('#name').value;
-  const emailField = document.querySelector('#email').value;
-  const textAreaField= document.querySelector("#textArea").value;
+   const nameArea = document.querySelector('#name').value;
+  const emailArea = document.querySelector('#email').value;
+  const textFieldArea= document.querySelector("#textArea").value;
 
   const data = {
-    name: nameField,
-    email:emailField,
-    text:textAreaField
+    name: nameArea,
+    email:emailArea,
+    text:textFieldArea
 
   }
+  // displaying data
+
   console.log(data);
 
 window.localStorage.setItem('data',JSON.stringify(data));
