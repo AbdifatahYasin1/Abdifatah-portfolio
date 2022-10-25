@@ -21,10 +21,16 @@ in microverse bootcamp. It is html and CSS with no frameworks.
 
 ## Getting Started
 
-clone the project
-Run on your browser
+You can have a copy of this repo run on your local machine by just directly cloning it
 
-To get a local copy up and running follow these simple example steps.
+> Cloning steps:
+
+1. - [ ] Open on the `Terminal`
+2. - [ ] Run `https://github.com/AbdifatahYasin1/My-portfolio-Web.git`
+3. - [ ] cd My-portfolio-Web
+4. - [ ] Open in the IDE
+4. - [ ] open with the liver server
+
 
 ## Author
 
@@ -33,8 +39,6 @@ To get a local copy up and running follow these simple example steps.
 - GitHub: [@AbdifatahYasin1](https://github.com/AbdifatahYasin1)
 - Twitter: [@CabdifataaxYuusuf](https://twitter.com/CabdifataaxYy)
 - LinkedIn: [Cabdifataax Yaasiin](https://www.linkedin.com/in/cabdifataax-yaasiin-69977019a/)
-
-
 
 ## 🤝 Contributing
 
