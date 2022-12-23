@@ -17,7 +17,7 @@ in microverse bootcamp. It is html and CSS with no frameworks.
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://abdifatahyasin1.github.io/My-portfolio-Web/)
+[Live Demo Link](https://abdifatahyasin1.github.io/Abdifatah-portfolio/)
 
 ## Getting Started
 
