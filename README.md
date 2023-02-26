@@ -4,7 +4,7 @@
 # 📗 Table of Contents
 
 - [� Table of Contents](#-table-of-contents)
-- [📖 Portfolio website ](#-Bookstore-)
+- [📖 Portfolio website ](#-Portfolio web-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -30,7 +30,7 @@
 
 > Describe your project in 1 or 2 sentences.
 
-Portfolio website is a web app that allows the user to store books.
+Portfolio website is a web app that allows you to showcase your projects.
 
 **[Portfolio website:: setup]** This is a sample of showcase that you can show your work to the world. You can add your projects and your skills to show the world what you can do.
 
