@@ -4,7 +4,7 @@
 # 📗 Table of Contents
 
 - [� Table of Contents](#-table-of-contents)
-- [📖 Portfolio website ](#-Portfolio web-)
+- [📖 Portfolio website ](#-Portfolio-web-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -26,7 +26,7 @@
   
 <!-- PROJECT DESCRIPTION -->
 
-# 📐 [Portfolio website:] <a name="about-project"></a>
+# 🕸 [Portfolio website:] <a name="about-project"></a>
 
 > Describe your project in 1 or 2 sentences.
 
@@ -178,14 +178,6 @@ Example:
  -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- AUTHORS -->
-
-## 👥 Authors <a name="authors"></a>
-
-> Mention all of the collaborators of this project.
-
-## Author
 
 👤 **Abdifatah**
 
